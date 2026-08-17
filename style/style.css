@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(155, 149, 142);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heroSection {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heroSection img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.info {
+  margin: left 50px;
+}
+.Skills {
+  background-color: aqua;
+}
+
+.Skills ul {
+  margin-left: 50px;
+}
+
+.experience {
+  background-color: aqua;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.highlight {
+  background-color: yellow;
+}
+
+.About {
+  background-color: aqua;
+}
+
+.read-more-link {
+  color: blue;
+}
